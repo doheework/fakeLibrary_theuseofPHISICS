@@ -1,0 +1,107 @@
+body {
+  position : relative;
+  height: 2386px;
+  background: radial-gradient(50% 50% at 50% 50%, #FFA800 65.1%, #00FFCD 100%);
+}
+
+
+
+.mockup_front{
+  position: absolute;
+  width: 548px;
+  height: 596px;
+  left: 50%;
+  top: 130px;
+  background: url(mockupfornt.png);
+  background-repeat:no-repeat;
+	background-size:cover;
+  transform: translate(-50%,0%);
+}
+
+.mockup_front:hover{
+  position: absolute;
+  width: 548px;
+  height: 596px;
+  left: 50%;
+  top: 130px;
+  background: url(mockup_back2_1.png);
+  background-repeat:no-repeat;
+	background-size:cover;
+  transform: translate(-50%,0%);
+}
+
+.울버린i{
+  position: fixed;
+  top: 500px;
+  left : 50%;
+  transform: translate(-50%,0%);
+  transition: all .35s;
+  opacity:0;
+}
+
+.울버린:hover .울버린i {
+  position: fixed;
+  z-index: 1;
+  top : 0px;
+  opacity:1;
+}
+
+
+.v2_4{
+position: fixed;
+width: 931px;
+height: 45px;
+left: 95px;
+top: 25px;
+
+font-family: Comic Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 41px;
+
+color: #FFFFFF;
+}
+
+
+
+.text{
+  position: absolute;
+  width: 54%;
+  left : 50%;
+  top: 900px;
+  transform: translate(-50%,0%);
+  
+  
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 172%;
+  /* or 24px */
+  
+  letter-spacing: -0.03em;
+  
+  color: #FFFFFF;
+}
+
+.v2_8{
+position: absolute;
+width: 627px;
+
+left: 50%;
+top: 803px;
+transform: translate(-50%,0%);
+  
+
+font-family: Comic Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
