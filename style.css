@@ -1,8 +1,10 @@
 body {
-  position : relative;
-  height: 2386px;
+  margin: 0px atuo;
+  height:100vh;
   background: radial-gradient(50% 50% at 50% 50%, #FFA800 65.1%, #00FFCD 100%);
+  background-attachment: fixed;
 }
+
 
 
 
@@ -32,20 +34,41 @@ body {
 
 .울버린i{
   position: fixed;
-  top: 500px;
+  top: 300px;
   left : 50%;
   transform: translate(-50%,0%);
+  width: 624px;
+  height: 983px;
+  max-width:100%;
+  max-height:100%;
   transition: all .35s;
-  opacity:0;
+  opacity :0;
 }
 
-.울버린:hover .울버린i {
+.울버린:hover + .울버린i {
   position: fixed;
   z-index: 1;
-  top : 0px;
+  top : 100px;
   opacity:1;
 }
 
+.수업i{
+  position: fixed;
+  top: 300px;
+  left : 50%;
+  transform: translate(-50%,0%);
+  width: 1384px;
+  height: 576px;
+  transition: all .35s;
+  opacity :0;
+}
+
+.수업장면:hover + .수업i{
+  position: fixed;
+  z-index: 1;
+  top : 120px;
+  opacity:1;
+}
 
 .v2_4{
 position: fixed;
@@ -81,8 +104,9 @@ color: #FFFFFF;
   /* or 24px */
   
   letter-spacing: -0.03em;
-  
   color: #FFFFFF;
+
+  padding-bottom: 200px;
 }
 
 .v2_8{
