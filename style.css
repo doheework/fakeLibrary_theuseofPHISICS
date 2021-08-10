@@ -1,12 +1,31 @@
 body {
+
   margin: 0px atuo;
   height:100vh;
   background: radial-gradient(50% 50% at 50% 50%, #FFA800 65.1%, #00FFCD 100%);
   background-attachment: fixed;
 }
 
+.text{
+  position: absolute;
+  width: 54%;
+  left : 50%;
+  top: 900px;
+  transform: translate(-50%,0%);
+  
+  font-family: 'NanumSquare', sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 172%;
+  /* or 24px */
+  
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
 
-
+  padding-bottom: 200px;
+  z-index:1;
+}
 
 .mockup_front{
   position: absolute;
@@ -20,6 +39,7 @@ body {
   transform: translate(-50%,0%);
 }
 
+
 .mockup_front:hover{
   position: absolute;
   width: 548px;
@@ -32,100 +52,153 @@ body {
   transform: translate(-50%,0%);
 }
 
+.울버린, .수업, .확대, .그림단어, .시즌, .등장, .학생, .주빌리, .플라즈모이드, .핵융합, .손, .불꽃놀이, .게임기, .파이로, .라이터, .압전기, .바비, .얼음, .장면, .성적표 {
+  text-decoration: underline; 
+  text-underline-position: under;
+}
+
 .울버린i{
   position: fixed;
-  top: 300px;
+  top: 90%;
   left : 50%;
   transform: translate(-50%,0%);
   width: 624px;
   height: 983px;
   max-width:100%;
-  max-height:100%;
-  transition: all .35s;
-  opacity :0;
-}
-
-.울버린:hover + .울버린i {
-  position: fixed;
-  z-index: 1;
-  top : 100px;
-  opacity:1;
+  height: auto;
+  z-index:2;
 }
 
 .수업i{
   position: fixed;
-  top: 300px;
+  top: 90%;
   left : 50%;
   transform: translate(-50%,0%);
   width: 1384px;
-  height: 576px;
-  transition: all .35s;
-  opacity :0;
+  max-width:170%;
+  height: auto;
+  z-index:2;
 }
 
 .수업장면:hover + .수업i{
   position: fixed;
-  z-index: 1;
-  top : 120px;
+  top : 180px;
   opacity:1;
+  z-index:2;
 }
 
-.v2_4{
-position: fixed;
-width: 931px;
-height: 45px;
-left: 95px;
-top: 25px;
-
-font-family: Comic Neue;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 41px;
-
-color: #FFFFFF;
+.확대i{
+  position:fixed;
+  width: 511px;
+  height: 576px;
+  top:-100px;
+  right:-100%;
+  max-width:100%;
+  height:auto;
+  opacity:0;
+  transition: all .35s;
+  z-index:-1;
 }
 
+.확대:hover + .확대i{
+  position: fixed;
+  right:-50%;
+  opacity:1;
+  z-index:2;
+}
 
-
-.text{
-  position: absolute;
-  width: 54%;
+.그림단어i{
+  position: fixed;
+  width: 1300px;
+  height: 330.54px;
+  max-width:150%;
+  height:auto;
+  text-align:center;
+  top: 700px;
   left : 50%;
-  top: 900px;
   transform: translate(-50%,0%);
-  
-  
+  opacity:0;
+  transition: all .35s;
+  z-index:-1;
+}
+
+.그림1, .그림2{
+  width: 330.54px;
+  height: 330.54px;
+  margin-right:10.08px;
+  max-width:30%;
+  height:auto;
+} 
+
+.그림3{
+  width: 618.76px;
+  height: 330.54px;
+  max-width:50%;
+  height:auto;
+}
+
+.그림단어:hover + .그림단어i{
+  position:fixed;
+  top:300px;
+  opacity:1;
+  z-index:2;
+}
+
+.시즌i{
+  position:fixed;
+  width: 660px;
+  height: 401.5px;
+  max-width:100%;
+  height:auto;
+  left:0px;
+  bottom:0px;
+  z-index:2;
+}
+
+
+
+.backname{
+  position: fixed;
+  width: 931px;
+  height: 45px;
+  left: 95px;
+  top: 25px;
+
   font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 41px;
+
+  color: #FFFFFF;
+}
+
+
+
+
+h {
+  font-family: Comic Neue;
+  font-style: normal; 
+  font-weight: bold;
+}
+
+
+.부제{
+  position: absolute;
+  width: 627px;
+  left: 50%;
+  top: 803px;
+  transform: translate(-50%,0%);
+    
+
+  font-family: 'NanumSquare', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 172%;
-  /* or 24px */
-  
-  letter-spacing: -0.03em;
+  line-height: 16px;
+  text-align: center;
+
   color: #FFFFFF;
 
-  padding-bottom: 200px;
-}
-
-.v2_8{
-position: absolute;
-width: 627px;
-
-left: 50%;
-top: 803px;
-transform: translate(-50%,0%);
-  
-
-font-family: Comic Neue;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 16px;
-text-align: center;
-
-color: #FFFFFF;
-
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
