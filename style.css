@@ -6,6 +6,28 @@ body {
   background-attachment: fixed;
 }
 
+.캡1, .캡2, .캡3, .캡4, .캡5, .캡6{
+  position:absolute;
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 172%;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  opacity:0;
+  z-index:-1;
+}
+
+
+.캡11:hover  .캡1{
+  position:sticky;
+  top:2px;
+  opacity:1;
+  z-index:2;
+}
+
 .text{
   position: absolute;
   width: 54%;
@@ -55,7 +77,10 @@ body {
 .울버린, .수업, .확대, .그림단어, .시즌, .등장, .학생, .주빌리, .플라즈모이드, .핵융합, .손, .불꽃놀이, .게임기, .파이로, .라이터, .압전기, .바비, .얼음, .장면, .성적표 {
   text-decoration: underline; 
   text-underline-position: under;
-  
+}
+
+.울버린, .수업, .확대, .그림단어, .시즌, .등장, .학생, .주빌리, .플라즈모이드, .핵융합, .손, .불꽃놀이, .게임기, .파이로, .라이터, .압전기, .바비, .얼음, .장면, .성적표:hover {
+cursor:pointer;
 }
 
 .울버린i{
@@ -65,7 +90,7 @@ body {
   transform: translate(-50%,0%);
   width: 624px;
   height: 983px;
-  max-width:100%;
+  max-width:90%;
   height: auto;
   z-index:2;
   pointer-events: none;
@@ -77,7 +102,7 @@ body {
   left : 50%;
   transform: translate(-50%,0%);
   width: 1384px;
-  max-width:170%;
+  max-width:90%;
   height: auto;
   z-index:2;
   pointer-events: none;
@@ -88,72 +113,290 @@ body {
   position:fixed;
   width: 511px;
   height: 576px;
-  top:-100px;
-  right:-100%;
-  max-width:100%;
-  height:auto;
-  opacity:0;
-  transition: all .35s;
-  z-index:-1;
+  top:0px;
+  left:100%;
+  max-width:90%;
+  height: auto;
+  z-index:2;
+  pointer-events: none;
 }
 
-.확대:hover + .확대i{
-  position: fixed;
-  right:-50%;
-  opacity:1;
-  z-index:2;
-}
 
 .그림단어i{
   position: fixed;
   width: 1300px;
   height: 330.54px;
-  max-width:150%;
-  height:auto;
   text-align:center;
-  top: 700px;
+  max-width:90%;
+  height: auto;
+  top: 100%;
   left : 50%;
   transform: translate(-50%,0%);
-  opacity:0;
-  transition: all .35s;
-  z-index:-1;
+  z-index:2;
+  pointer-events: none;
 }
 
 .그림1, .그림2{
   width: 330.54px;
   height: 330.54px;
   margin-right:10.08px;
-  max-width:30%;
-  height:auto;
+  pointer-events: none;
 } 
 
 .그림3{
   width: 618.76px;
   height: 330.54px;
-  max-width:50%;
-  height:auto;
-}
-
-.그림단어:hover + .그림단어i{
-  position:fixed;
-  top:300px;
-  opacity:1;
-  z-index:2;
+  pointer-events: none;
 }
 
 .시즌i{
   position:fixed;
   width: 660px;
   height: 401.5px;
-  max-width:100%;
-  height:auto;
   left:0px;
   top:100%;
+  max-width:90%;
+  height: auto;
   z-index:2;
   pointer-events: none;
 }
 
+.등장i{
+  position:fixed;
+  width: 447px;
+  height: 622px;
+  top: 100%;
+  left : 50%;
+  transform: translate(-50%,0%);
+  max-width:90%;
+  height: auto;
+  z-index:2;
+  pointer-events: none;
+}
 
+.학생i{
+  position:fixed;
+  width: 1384px;
+  height: 410px;
+  top:100%;
+  left : 50%;
+  max-width:90%;
+  height: auto;
+  transform: translate(-50%,0%);
+  z-index:2;
+  pointer-events: none;
+}
+
+.주빌리i{
+  position:fixed;
+  width: 115px;
+  height: 139px;
+  top:100%;
+  left : 50%;
+  max-width:90%;
+  height: auto;
+  transform: translate(-50%,0%);
+  z-index:2;
+  pointer-events: none;
+}
+
+.플라즈모이드i{
+  position:fixed;
+  width: 1101px;
+  height: 268px;
+  text-align:center;
+  max-width:90%;
+  height: auto;
+  top: 100%;
+  left : 50%;
+  transform: translate(-50%,0%);
+  z-index:2;
+  pointer-events: none;
+}
+
+.플1{
+  width: 476px;
+  height: 268px;
+  margin-right:  5px;
+}
+
+.플2{
+  width: 276px;
+  height: 268px;
+  margin-right:  5px;
+}
+
+.플3{
+  width: 339px;
+  height: 268px;
+}
+
+.핵융합i{
+  position:fixed;
+  width: 409px;
+  height: 165.6px;
+  top:100%;
+  left : 50%;
+  max-width:90%;
+  height: auto;
+  transform: translate(-50%,0%);
+  z-index:2;
+  pointer-events: none;
+}
+
+.손i{
+  position:fixed;
+  width: 359.85px;
+  height: 186px;
+  top:100%;
+  left : 50%;
+  max-width:90%;
+  height: auto;
+  transform: translate(-50%,0%);
+  z-index:2;
+  pointer-events: none;
+}
+
+.불꽃놀이i{
+  position:fixed;
+  width: 596px;
+  height: 640px;
+  top:100%;
+  left : 50%;
+  max-width:90%;
+  height: auto;
+  transform: translate(-50%,0%);
+  z-index:2;
+  pointer-events: none;
+}
+
+.게임기i{
+  position:fixed;
+  width: 285px;
+  height: 186px;
+  top:100%;
+  left : 50%;
+  max-width:90%;
+  height: auto;
+  transform: translate(-50%,0%);
+  z-index:2;
+  pointer-events: none;
+}
+
+.파이로i{
+  position:fixed;
+  width: 131px;
+  height: 139px;
+  top:100%;
+  left : 50%;
+  max-width:90%;
+  height: auto;
+  transform: translate(-50%,0%);
+  z-index:2;
+  pointer-events: none;
+}
+
+.라이터i{
+  position:fixed;
+  width: 1320px;
+  height: 550px;  
+  top:50%;
+  left : 100%;
+  max-width:90%;
+  height: auto;
+  transform: translate(0%,-50%);
+  z-index:2;
+  pointer-events: none;
+}
+
+.압전기i{
+  position:fixed;
+  width: 546px;
+  height: 268px;  
+  top:100%;
+  left : 50%;
+  max-width:90%;
+  height: auto;
+  transform: translate(-50%,0%);
+  z-index:2;
+  pointer-events: none;
+}
+
+.바비i{
+  position:fixed;
+  width: 127px;
+  height: 139px;
+  top:100%;
+  left : 50%;
+  max-width:90%;
+  height: auto;
+  transform: translate(-50%,0%);
+  z-index:2;
+  pointer-events: none;
+}
+
+.얼음i{
+  position:fixed;
+  width: 861px;
+  height: 664px;
+  top:100%;
+  left : 0%;
+  max-width:90%;
+  height: auto;
+  z-index:2;
+  pointer-events: none;
+}
+
+.장면i{
+  position:fixed;
+  width: 315px;
+  height: 186px;
+  top:100%;
+  left : 50%;
+  max-width:90%;
+  height: auto;
+  transform: translate(-50%,0%);
+  z-index:2;
+  pointer-events: none;
+}
+
+.성적표i{
+  position:fixed;
+  width: 1615px;
+  height: 674px;
+  text-align:center;
+  max-width:100%;
+  height: auto;
+  top: 100%;
+  left : 50%;
+  transform: translate(-50%,0%);
+  z-index:2;
+  pointer-events: none;
+}
+
+.성1, .성2, .성3, .성4, .성5{
+  width: 501px;
+  height: 334px;
+  margin-right: 2px;
+  
+}
+
+.성6{
+  width: 501px;
+  height: 334px;
+}
+
+.arrow{
+  left: 50px;
+  top: 27px;
+  position:fixed;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+
+.arrow:hover {
+  cursor:pointer;
+}
 
 .backname{
   position: fixed;
@@ -200,3 +443,4 @@ h {
 
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
