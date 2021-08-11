@@ -148,7 +148,7 @@ body {
   max-width:100%;
   height:auto;
   left:0px;
-  bottom:0px;
+  top:100%;
   z-index:2;
   pointer-events: none;
 }

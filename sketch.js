@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $(".울버린").mouseover(function(){
     $(".울버린i").show();
-    $(".울버린i").stop().animate({top:100});
+    $(".울버린i").stop().animate({top:window.innerHeight-800});
     });
     $(".울버린").mouseout(function(){
     $(".울버린i").stop().animate({top:"100%"});
