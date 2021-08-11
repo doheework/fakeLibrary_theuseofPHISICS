@@ -55,11 +55,12 @@ body {
 .울버린, .수업, .확대, .그림단어, .시즌, .등장, .학생, .주빌리, .플라즈모이드, .핵융합, .손, .불꽃놀이, .게임기, .파이로, .라이터, .압전기, .바비, .얼음, .장면, .성적표 {
   text-decoration: underline; 
   text-underline-position: under;
+  
 }
 
 .울버린i{
   position: fixed;
-  top: 90%;
+  top: 100%;
   left : 50%;
   transform: translate(-50%,0%);
   width: 624px;
@@ -67,25 +68,21 @@ body {
   max-width:100%;
   height: auto;
   z-index:2;
+  pointer-events: none;
 }
 
 .수업i{
   position: fixed;
-  top: 90%;
+  top:100%;
   left : 50%;
   transform: translate(-50%,0%);
   width: 1384px;
   max-width:170%;
   height: auto;
   z-index:2;
+  pointer-events: none;
 }
 
-.수업장면:hover + .수업i{
-  position: fixed;
-  top : 180px;
-  opacity:1;
-  z-index:2;
-}
 
 .확대i{
   position:fixed;
@@ -153,6 +150,7 @@ body {
   left:0px;
   bottom:0px;
   z-index:2;
+  pointer-events: none;
 }
 
 

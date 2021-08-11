@@ -1,24 +1,25 @@
 $(document).ready(function(){
     $(".울버린").mouseover(function(){
     $(".울버린i").show();
-    $(".울버린i").stop().animate({top:100})
+    $(".울버린i").stop().animate({top:100});
     });
     $(".울버린").mouseout(function(){
-    $(".울버린i").stop().animate({top:600})
-    $(".울버린i").hide();
+    $(".울버린i").stop().animate({top:"100%"});
+    
     });
     });
 
 $(document).ready(function(){
-        $(".수업").mouseover(function(){
-        $(".수업i").show();
-        $(".수업i").stop().animate({top:"50%"})
-        });
-        $(".수업").mouseout(function(){
-        $(".수업i").stop().animate({top:1000})
-        $(".수업i").hide();
-        });
-        });
+    $(".수업").mouseover(function(){
+    $(".수업i").show();
+    $(".수업i").stop().animate({top:window.innerHeight/2-288})
+    });
+    $(".수업").mouseout(function(){
+    $(".수업i").stop().animate({top:"100%"})
+    });
+    });
+
+
 
 $(document).ready(function(){
     $(".시즌").mouseover(function(){
@@ -26,7 +27,6 @@ $(document).ready(function(){
     $(".시즌i").stop().animate({top:0})
     });
     $(".시즌").mouseout(function(){
-    $(".시즌i").stop().animate({top:500})
-    $(".시즌i").hide();
+    $(".시즌i").stop().animate({top:"100%"})
     });
     });
