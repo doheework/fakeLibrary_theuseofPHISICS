@@ -28,6 +28,41 @@ body {
   z-index:2;
 }
 
+.캡22:hover  .캡2{
+  position:sticky;
+  top:2px;
+  opacity:1;
+  z-index:2;
+}
+
+.캡33:hover  .캡3{
+  position:sticky;
+  top:2px;
+  opacity:1;
+  z-index:2;
+}
+
+.캡44:hover  .캡4{
+  position:sticky;
+  top:2px;
+  opacity:1;
+  z-index:2;
+}
+
+.캡55:hover  .캡5{
+  position:sticky;
+  top:2px;
+  opacity:1;
+  z-index:2;
+}
+
+.캡66:hover  .캡6{
+  position:sticky;
+  top:2px;
+  opacity:1;
+  z-index:2;
+}
+
 .text{
   position: absolute;
   width: 54%;
@@ -124,7 +159,7 @@ cursor:pointer;
 
 .그림단어i{
   position: fixed;
-  width: 1300px;
+  width: 1500px;
   height: 330.54px;
   text-align:center;
   max-width:90%;
@@ -139,6 +174,8 @@ cursor:pointer;
 .그림1, .그림2{
   width: 330.54px;
   height: 330.54px;
+  max-width:90%;
+  height: auto;
   margin-right:10.08px;
   pointer-events: none;
 } 
@@ -146,6 +183,8 @@ cursor:pointer;
 .그림3{
   width: 618.76px;
   height: 330.54px;
+  max-width:90%;
+  height: auto;
   pointer-events: none;
 }
 
@@ -362,10 +401,10 @@ cursor:pointer;
 
 .성적표i{
   position:fixed;
-  width: 1615px;
-  height: 674px;
+  width: 1600px;
+  height: 700px;
   text-align:center;
-  max-width:100%;
+  max-width:120%;
   height: auto;
   top: 100%;
   left : 50%;
@@ -378,12 +417,15 @@ cursor:pointer;
   width: 501px;
   height: 334px;
   margin-right: 2px;
-  
+  max-width:50%;
+  height: auto;
 }
 
 .성6{
   width: 501px;
   height: 334px;
+  max-width:50%;
+  height: auto;
 }
 
 .arrow{

@@ -209,9 +209,8 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $(".성적표").mouseover(function(){
-        var image = $(".성적표i");
     $(".성적표i").show();
-    $(".성적표i").stop().animate({top:"0%"})
+    $(".성적표i").stop().animate({top:0})
     });
     $(".성적표").mouseout(function(){
     $(".성적표i").stop().animate({top:"100%"})
