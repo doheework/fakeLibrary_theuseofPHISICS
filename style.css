@@ -70,7 +70,7 @@ body {
   top: 900px;
   transform: translate(-50%,0%);
   
-  font-family: 'NanumSquare', sans-serif;
+  font-family: Apple SD Gothic Neo;
   font-style: normal;
   font-weight: lighter;
   font-size: 14px;
@@ -458,11 +458,10 @@ cursor:pointer;
 
 
 
-
 h {
   font-family: Comic Neue;
   font-style: normal; 
-  font-weight: bold;
+  font-weight: normal;
 }
 
 
