@@ -1,6 +1,3 @@
-@media screen and (max-width : 100vw){ 
-  html {font-size:10px} }
-
 
 body {
   margin: 0px atuo;
@@ -14,7 +11,7 @@ body {
   font-family: Comic Neue;
   font-style: normal;
   font-weight: normal;
-  font-size: 1rem;
+  font-size: 10px;
   line-height: 172%;
   letter-spacing: -0.03em;
   color: #FFFFFF;
@@ -76,7 +73,7 @@ body {
   font-family: Apple SD Gothic Neo;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.6rem;
+  font-size: 16px;
   line-height: 172%;
   /* or 24px */
   
@@ -479,7 +476,7 @@ h {
   font-family: Apple SD Gothic Neo;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.4rem;
+  font-size: 14px;
   line-height: 16px;
   text-align: center;
 
