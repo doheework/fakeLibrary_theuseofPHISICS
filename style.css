@@ -447,7 +447,7 @@ cursor:pointer;
 
 .backname{
   position: fixed;
-  width: 931px;
+  width: 100%;
   height: 45px;
   left: 95px;
   top: 25px;
@@ -472,7 +472,7 @@ h {
 
 .부제{
   position: absolute;
-  width: 627px;
+  width: 100%;
   left: 50%;
   top: 803px;
   transform: translate(-50%,0%);
