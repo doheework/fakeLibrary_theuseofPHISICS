@@ -98,11 +98,15 @@ body {
 .mockup_front{
   position: absolute;
   width: 548px;
+  max-width:100%;
+  height:auto;
 }
 
 .mockup_inside{
   position: absolute;
   width: 548px;
+  max-width:100%;
+  height:auto;
   opacity:0;
   z-index:2;
 }
@@ -444,7 +448,7 @@ cursor:pointer;
 
 .backname{
   position: fixed;
-  width: 40%;
+  width: 70%;
   left: 95px;
   top: 25px;
 
