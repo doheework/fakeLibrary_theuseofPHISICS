@@ -87,9 +87,11 @@ body {
 .mockup_f{
   position: absolute;
   width: 548px;
+  max-width:100%;
+  height:auto;
   left: 50%;
   top: 130px;
-  transform: translate(-50%,0%);
+  transform: translate(-50%,-50%);  
 }
 
 .mockup_front{
