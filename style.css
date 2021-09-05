@@ -1,7 +1,7 @@
 
 body {
   margin: 0px atuo;
-  height:100vh;
+  width:100vw;
   background: radial-gradient(50% 50% at 50% 50%, #FFA800 65.1%, #00FFCD 100%);
   background-attachment: fixed;
 }
@@ -84,29 +84,34 @@ body {
   z-index:1;
 }
 
-.mockup_front{
+.mockup_f{
   position: absolute;
   width: 548px;
-  height: 596px;
+  max-width:100%;
+  height:auto;
   left: 50%;
   top: 130px;
-  background: url(mockupfornt.png);
-  background-repeat:no-repeat;
-	background-size:cover;
   transform: translate(-50%,0%);
 }
 
-
-.mockup_front:hover{
+.mockup_front{
   position: absolute;
   width: 548px;
-  height: 596px;
-  left: 50%;
-  top: 130px;
-  background: url(mockup_back2_1.png);
-  background-repeat:no-repeat;
-	background-size:cover;
-  transform: translate(-50%,0%);
+  max-width:100%;
+  height:auto;
+}
+
+.mockup_inside{
+  position: absolute;
+  width: 548px;
+  max-width:100%;
+  height:auto;
+  opacity:0;
+  z-index:2;
+}
+
+.mockup_f:hover .mockup_inside{
+  opacity:1;
 }
 
 .울버린, .수업, .확대, .그림단어, .시즌, .등장, .학생, .주빌리, .플라즈모이드, .핵융합, .손, .불꽃놀이, .게임기, .파이로, .라이터, .압전기, .바비, .얼음, .장면, .성적표 {
