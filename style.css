@@ -85,27 +85,24 @@ body {
 }
 
 .mockup_f{
-  position: absolute;
-  width: 548px;
+  position: relative;
+  width: 600px;
   max-width:100%;
   height:auto;
   left: 50%;
   top: 130px;
-  transform: translate(-50%,-50%);  
+  transform: translate(-50%,-50%); 
+
 }
 
 .mockup_front{
   position: absolute;
   width: 548px;
-  max-width:100%;
-  height:auto;
 }
 
 .mockup_inside{
   position: absolute;
   width: 548px;
-  max-width:100%;
-  height:auto;
   opacity:0;
   z-index:2;
 }
@@ -434,7 +431,7 @@ cursor:pointer;
 }
 
 .arrow{
-  left: 50px;
+  left: 40px;
   top: 27px;
   position:fixed;
   font-size: 36px;
@@ -447,7 +444,7 @@ cursor:pointer;
 
 .backname{
   position: fixed;
-  width: 100%;
+  width: 40%;
   left: 95px;
   top: 25px;
 
